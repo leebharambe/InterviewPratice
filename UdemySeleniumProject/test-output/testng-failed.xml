@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.web.automation.testcases.TC01_Registration">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="TC01"/>
+        </methods>
+      </class> <!-- org.web.automation.testcases.TC01_Registration -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
